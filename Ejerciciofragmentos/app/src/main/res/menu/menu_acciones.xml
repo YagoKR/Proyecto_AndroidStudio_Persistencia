@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/vis"
+        android:title="Visualizar" >
+    <menu>
+        <item
+            android:id="@+id/pelis"
+            android:title="Peliculas" />
+        <item
+            android:id="@+id/actor"
+            android:title="Actores" />
+    </menu>
+    </item>
+    <item
+        android:id="@+id/sincro"
+        android:title="Realizar sincronización" />
+
+    <item
+        android:id="@+id/salir"
+        android:title="Salir" />
+</menu>

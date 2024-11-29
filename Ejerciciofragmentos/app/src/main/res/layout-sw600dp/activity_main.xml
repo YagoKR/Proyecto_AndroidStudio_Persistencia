@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/fragmentListaPeliculas"
+        android:name="com.example.ejerciciofragmentos.vista.fragmentos.ListaPeliculas"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toStartOf="@+id/fragmentDatosPeliculas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <fragment
+        android:id="@+id/fragmentListaActores"
+        android:name="com.example.ejerciciofragmentos.vista.fragmentos.ListaActores"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toStartOf="@+id/fragmentDatosPeliculas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <fragment
+        android:id="@+id/fragmentDatosPeliculas"
+        android:name="com.example.ejerciciofragmentos.vista.fragmentos.DatosPelicula"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/fragmentListaPeliculas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.5" />
+
+
+    <fragment
+        android:id="@+id/fragmentDatosActores"
+        android:name="com.example.ejerciciofragmentos.vista.fragmentos.DatosActores"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/fragmentListaPeliculas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
