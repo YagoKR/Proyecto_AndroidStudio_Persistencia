@@ -1,2 +1,5 @@
 # Proyecto_AndroidStudio_Persistencia
-Proyecto realizado en Android Studio usando Java para trabajar la Persistencia
+
+EjercicioPesistencia es un proyecto realizado en Android Studio usando Java para trabajar la Persistencia
+EjercicioFragmentos es un proyecto realizado en Android Studio usando Java para trabajar con ListViews, Intents, Fragments y Adaptadores
+
