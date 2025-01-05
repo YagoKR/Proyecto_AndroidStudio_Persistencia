@@ -6,4 +6,4 @@ Ejerciciofragmentos es un proyecto realizado en Android Studio usando Java para 
 
 EjercicioBBDD es un proyecto realizado en Android Studio usando Java para trabajar con SQLite.
 
-EjercicioBBDD es un proyecto realizado en Android Studio usando Java para trabajar con SQLite y ListViews. Debido a limitaciones de la plataforma solo pude enviar el proyecto en .zip
+ExamenDiciembre es un proyecto realizado en Android Studio usando Java para trabajar con SQLite y ListViews. Debido a limitaciones de la plataforma solo pude enviar el proyecto en .zip
